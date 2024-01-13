@@ -25,7 +25,8 @@ import { LikeIcon } from "./components/MainPage/Post/LikeIcon";
 // TODO!
 
 // Strange space between separators. I set bigger post but separator doesnt take into account height of post
-// Why I can't scroll posts completely to the end?
+
+// Why I can't scroll posts completely to the end? // PostLists.js > flex:1 and paddingBottom:20 in contnet container style
 // When I scroll I would like to hide TopMenu and Stories
 
 // like counter black when equals 0

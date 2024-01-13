@@ -8,7 +8,7 @@ export const PostLists = () => {
       <FlatList
         keyExtractor={(item, index) => item.id.toString()}
         data={data}
-        // contentContainerStyle={{ gap: 2 }}
+        contentContainerStyle={{ paddingBottom: 115 }}
         style={{ marginTop: 12 }}
         ItemSeparatorComponent={Separator}
         renderItem={({ item }) => {
@@ -22,7 +22,10 @@ export const PostLists = () => {
 };
 
 const s = StyleSheet.create({
-  postListsContainer: {},
+  postListsContainer: {
+    // padding:20
+    // flex: 1,
+  },
 });
 
 const data = [
